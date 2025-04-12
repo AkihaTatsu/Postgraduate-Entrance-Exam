@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>TBSI / 人工智能考研笔记（2025）</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="考研政治2024笔记" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+
+    <link rel="stylesheet" href="theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" /> <!-- GitHub icon on top right -->
+
+    <!-- Custom Styles -->
+    <style>
+        :root {
+            /* Headings */
+            --heading-h1-font-size: var(--font-size-xxl);
+            --heading-h2-font-size: var(--font-size-xl);
+            --heading-h3-font-size: var(--font-size-l);
+            --heading-h4-font-size: var(--font-size-m);
+            --heading-h5-font-size: var(--font-size-s);
+            --heading-h6-font-size: var(--font-size-xs);
+        }
+    </style>
+
+    <link rel="icon" href="assets/Cirno.ico">
+</head>
+
+<body>
+    <div id="app">加载中……</div>
+    <script>
+        window.$docsify = {
+            coverpage: true,
+            maxLevel: 4,
+            name: '考研笔记系列',
+            loadSidebar: true,
+            loadNavbar: true,
+            alias: {
+                '/.*/_sidebar.md': '/_sidebar.md',
+                '/.*/_navbar.md': '/_navbar.md',
+            },
+            subMaxLevel: 6,
+
+            search: 'auto',  // default
+            search: {
+                maxAge: 86400000,  // 1 day for each update
+                depth: 3,
+                placeholder: '请输入搜索关键字',
+                noData: '没有找到相应内容',
+            },
+
+            count: {
+                countable: true,
+                language: 'chinese',  // Use Chinese
+            },
+
+            sidebarDisplayLevel: 2,  // Display first level for docsify-sidebar-collapse
+        }
+    </script>
+    <!-- Search -->
+    <script src="https://unpkg.com/docsify@4.12.2/lib/plugins/search.js"></script>
+
+    <!-- Mermaid Support-->
+    <script type="module">
+        import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+        mermaid.initialize({ startOnLoad: true });
+        window.mermaid = mermaid;
+    </script>
+    <script src="//unpkg.com/docsify-mermaid@2.0.1/dist/docsify-mermaid.js"></script>
+
+    <!-- KaTeX Support -->
+    <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
+    <script src="//cdn.jsdelivr.net/npm/marked@4"></script>
+
+    <!-- Copy code -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+
+    <!-- CDN files for docsify-katex -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+
+    <!-- emoji usage -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+
+    <!-- Zoom image -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+
+    <!-- Scroll to top -->
+    <script src="//cdn.jsdelivr.net/gh/Sumsung524/docsify-backTop/dist/docsify-backTop.min.js"></script>
+
+    <!-- Word count-->
+    <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+
+    <!-- Sidebar Collapsible -->
+    <script src="//unpkg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+
+    <!-- Docsify Themeable -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+
+    <!-- Docsify v4 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+</body>
+
+</html>
